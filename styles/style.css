@@ -67,3 +67,8 @@ a:active
   border-radius: 50%;
   height: 17.5rem;
 }
+input[type=text],
+input[type=email]
+{
+  width: 21rem;
+}
