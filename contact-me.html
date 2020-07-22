@@ -11,15 +11,25 @@
     <p>Email Address: Trillium_Solutions@gmail.com</p>
     <p>Phone: (305)999-8888</p>
     <hr>
-    <h3>Send Us A Message</h3>
+    <h3 class="form-heading medium-line">Send Us A Message</h3>
     <form class="" action="mailto:dfhellerjr@gmail.com" method="post" enctype="text/plain">
-      <label for="" style="margin-right: 31px">Your Name:</label>
-      <input type="text" name="name" value=""><br>
-      <label for="" style="margin-right: 5px">Email Address:</label>
-      <input type="email" name="email" value=""><br>
-      <label for="">Your Message:</label><br>
-      <textarea name="message" rows="10" cols="40"></textarea><br>
-      <input type="submit" name="submit" value="Submit">
+      <ul>
+          <li>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="user_name">
+          </li>
+          <li>
+            <label for="mail">E-mail:</label>
+            <input type="email" id="mail" name="user_email">
+          </li>
+          <li>
+            <label for="msg">Message:</label>
+            <textarea id="msg" name="user_message"></textarea>
+          </li>
+          <li class="button">
+            <button type="submit">Send your message</button>
+          </li>
+       </ul>
     </form>
   </body>
 </html>
