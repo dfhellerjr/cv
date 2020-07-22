@@ -11,7 +11,8 @@
 html
 {
   box-sizing: border-box;
-  font-size: 62.5%;
+  /* font-size = 10px = 1rem */
+  font-size: 62.5%;   
 }
 body
 {
@@ -22,6 +23,11 @@ body
   line-height: 1.6;
   font-size: 1.8rem;
   padding: 4rem;
+}
+span 
+{
+  font-size: 1.9rem;
+  font-weight: bold;
 }
 h1,
 h3
@@ -74,15 +80,64 @@ a:active
     -moz-transition: border-bottom 0.2s color 0.2s;
     transition: border-bottom 0.2s color 0.2s;
 }
-input[type=text],
-input[type=email]
+
+/* contact form */
+form 
 {
-  width: 21rem;
+  width: 40rem;
+  /* Form outline */
+  padding: 1.5rem 1rem;
+  border: 1px solid #CCC;
+  border-radius: 1em;
 }
-input[type=submit]
+ul 
 {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+form li + li 
+{
+  margin-top: 1rem;
+}
+label 
+{
+  /* Uniform size & alignment */
+  display: inline-block;
+  width: 90px;
+}
+input, 
+textarea 
+{
+  /* Uniform text field size */
+  width: 27rem;
+  height: 3rem;
+  /* Match form field borders */
+  border: 1px solid #999;
+}
+input:focus, 
+textarea:focus 
+{
+  /* Additional highlight for focused elements */
+  border-color: #000;
+}
+textarea 
+{
+  /* Align multiline text fields with their labels */
+  vertical-align: top;
+  /* Provide space to type some text */
+  height: 15rem;
+}
+.button 
+{
+  /* Align buttons with the text fields */
+  padding-left: 15rem; /* same size as the label elements */
+}
+button 
+{
+  /* This extra margin represent roughly the same space as the space
+     between the labels and their text fields */
   height: 4rem;
-  width: 12rem;
 }
 
 /* class selectors */
@@ -91,3 +146,22 @@ input[type=submit]
   border-radius: 50%;
   height: 17.5rem;
 }
+.short-line:after 
+{
+  width: 13rem;
+}
+.medium-line:after 
+{
+  width: 24rem;
+}
+.long-line:after 
+{
+  width: 28rem;
+}
+.form-heading 
+{
+  margin-left: 9rem;
+}
+
+
+
