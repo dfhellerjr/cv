@@ -141,7 +141,7 @@ input[type=submit]
   background: -ms-linear-gradient(#ffffff, #CCCCCC);
   height: 30px;
 	width: 90px;
-  margin-left: 25%;
+  xmargin-left: 25%;
 }
 
 /* class selectors */
