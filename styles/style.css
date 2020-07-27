@@ -133,11 +133,6 @@ textarea
   /* Provide space to type some text */
   height: 15rem;
 }
-.button 
-{
-  xpadding-left: 15rem; 
-  
-}
 input[type=submit] 
 {
   height: 4rem;
@@ -145,8 +140,8 @@ input[type=submit]
 	background: -webkit-linear-gradient(#ffffff, #CCCCCC);
   background: -ms-linear-gradient(#ffffff, #CCCCCC);
   height: 30px;
-	width: 75px;
-	margin: 10px;
+	width: 90px;
+	margin: 10px 10px 10px 150px;
 }
 
 /* class selectors */
