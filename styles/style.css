@@ -135,6 +135,7 @@ textarea
 }
 input[type=submit] 
 {
+  display: inline-block;
   height: 4rem;
   background: -moz-linear-gradient(#ffffff, #CCCCCC);
 	background: -webkit-linear-gradient(#ffffff, #CCCCCC);
