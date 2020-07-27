@@ -136,13 +136,14 @@ textarea
 .button 
 {
   padding-left: 15rem; 
-  background: -moz-linear-gradient(#ffffff, #CCCCCC);
-	background: -webkit-linear-gradient(#ffffff, #CCCCCC);
-	background: -ms-linear-gradient(#ffffff, #CCCCCC);
+  
 }
 button 
 {
   height: 4rem;
+  background: -moz-linear-gradient(#ffffff, #CCCCCC);
+	background: -webkit-linear-gradient(#ffffff, #CCCCCC);
+	background: -ms-linear-gradient(#ffffff, #CCCCCC);
 }
 
 /* class selectors */
