@@ -113,7 +113,12 @@ textarea
   width: 27rem;
   height: 3rem;
   /* Match form field borders */
-  border: 1px solid #999;
+  border-style: groove;
+	border-width: 2px;
+	border-top-color: white;
+	border-left-color: white;
+	border-bottom-color: #A8A8A8;
+	border-right-color: #A8A8A8;
 }
 input:focus, 
 textarea:focus 
@@ -130,13 +135,13 @@ textarea
 }
 .button 
 {
-  /* Align buttons with the text fields */
-  padding-left: 15rem; /* same size as the label elements */
+  padding-left: 15rem; 
+  background: -moz-linear-gradient(#ffffff, #CCCCCC);
+	background: -webkit-linear-gradient(#ffffff, #CCCCCC);
+	background: -ms-linear-gradient(#ffffff, #CCCCCC);
 }
 button 
 {
-  /* This extra margin represent roughly the same space as the space
-     between the labels and their text fields */
   height: 4rem;
 }
 
