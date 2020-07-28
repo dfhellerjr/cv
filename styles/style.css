@@ -104,7 +104,7 @@ label
 {
   /* Uniform size & alignment */
   display: inline-block;
-  width: 90px;
+  width: 9rem;
 }
 input, 
 textarea 
@@ -140,9 +140,9 @@ input[type=submit]
   background: -moz-linear-gradient(#ffffff, #CCCCCC);
 	background: -webkit-linear-gradient(#ffffff, #CCCCCC);
   background: -ms-linear-gradient(#ffffff, #CCCCCC);
-  height: 30px;
-	width: 90px;
-  margin-left: 175px;
+  height: 3rem;
+	width: 9rem;
+  margin-left: 17rem;
 }
 
 /* class selectors */
